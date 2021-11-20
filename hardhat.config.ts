@@ -24,11 +24,10 @@ const config: HardhatUserConfig = {
   namedAccounts: {
     deployer: 0,
     erc721base: {
-      // this is the erc721base logic contract deployment
-      // 1: '',
-      // this is the erc721base logic contract deployment
-      // 4: '0x3Be479A0e8D5732BE5051Bfe6833CC98722f2C1b',
-      // 4: '0x93699c83B82ff9aA88b75FCAB9c11B28C1030728'
+      // Mainnet: this is the erc721base logic contract deployment
+      1: '0x43955024b1985E2b933A59021500aE5f55b04091',
+      // Rinkeby: this is the erc721base logic contract deployment
+      4: '0x93699c83B82ff9aA88b75FCAB9c11B28C1030728'
     }
   },
   networks,
